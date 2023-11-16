@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signin_screen"
+    tools:context=".singInActivity">
+
+    <!--Unique id txt Input code here-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_gravity="center"
+        app:boxStrokeColor="@color/yellow"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Unique ID"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    Sing Up Button Code here-->
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/yellow"
+        tools:ignore="HardcodedText" />
+
+    <!--    if you don't have an account account code here-->
+    <TextView
+        android:id="@+id/textNoAccount"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="If you Don't have an account then, SIGN UP"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>
