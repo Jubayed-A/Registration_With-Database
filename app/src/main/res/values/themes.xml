@@ -3,6 +3,8 @@
     <style name="Base.Theme.SingUpWithDatabase" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!--        and status bar color change here -->
+        <item name="android:statusBarColor">@color/yellow</item>
     </style>
 
     <style name="Theme.SingUpWithDatabase" parent="Base.Theme.SingUpWithDatabase" />
