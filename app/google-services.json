@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332296309524",
+    "project_id": "singup-with-database",
+    "storage_bucket": "singup-with-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332296309524:android:e572350e0e5a3aadb25001",
+        "android_client_info": {
+          "package_name": "com.example.singupwithdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5PQhl-CaWEJas4sRSkV_PL7ek6Q9rwhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
